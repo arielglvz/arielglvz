@@ -1,0 +1,79 @@
+{
+  "about": "Results-driven Front-end React JS Development Engineer with 2+ years of experience in creating reusable web components and translating designs into high-quality code. Proven in debugging and requirement analysis, with a background in data analysis and SEO/web development. Experienced Content Analyst, generating and analyzing articles for quality. Bachelor of Science in Computer Science from the University of Perpetual Help System Dalta. Passionate about leveraging skills to innovate and create impactful digital experiences.",
+  "experiences": [
+    {
+      "title": "Frontend Development Engineer",
+      "company": "Dynamic Strategy Solutions Experts Corporation",
+      "years": "2022-2024"
+    },
+    {
+      "title": "Content Analyst",
+      "company": "SPi Global",
+      "years": "2019-2022"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Chromelab Technologies Inc.",
+      "years": "2019"
+    },
+    {
+      "title": "SEO / Web Developer (Intern)",
+      "company": "University of Perpetual Help System Dalta",
+      "years": "2019"
+    },
+    {
+      "title": "BS Computer Science",
+      "company": "University of Perpetual Help System Dalta",
+      "years": "2019"
+    },
+    {
+      "title": "Hello World! 👋🏻",
+      "company": "Wrote my first line of code",
+      "years": "2014"
+    }
+  ],
+  "tech_stack": {
+    "frontend": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Vue js",
+      "Tailwind CSS",
+      "Styled Components",
+      "SCSS",
+      "Webpack",
+      "ESLint"
+    ],
+    "backend": [
+      "Firebase",
+      "Mongo DB",
+      "Node.js"
+    ]
+  },
+  "beyond_coding": [
+    "When not writing code, I focus on learning about emerging technologies, minimalism, and startup culture.",
+    "I Like, watching vlogs about Software Engineers, trying some designs from social media."
+  ],
+  "recent_projects": [
+    {
+      "name": "CMS Me",
+      "description": "Portfolio with dashboard to Create, Read, Update, Delete.",
+      "link": "https://github.com/arielglvz/cms-me-2/tree/main"
+    },
+    {
+      "name": "Easy Bank Landing Page",
+      "description": "A simple landing page using HTML, SCSS, Javascript.",
+      "link": "https://easybank-landing-page-seven-chi.vercel.app/"
+    }
+  ],
+  "contacts": {
+    "email": "arielglvvz@gmail.com",
+    "number": "09772089843",
+    "social_links": [
+      { "icon": "mdi:linkedin","name": "linkedin", "link": "https://www.linkedin.com/in/arielglvz/" },
+      { "icon": "mdi:github-box", "name": "github", "link": "https://github.com/arielglvz" },
+      { "icon": "mdi:instagram", "name": "instagram", "link": "https://www.instagram.com/arielglvz/" }
+    ]
+  },
+  "blogs": []
+}
