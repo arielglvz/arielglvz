@@ -48,6 +48,19 @@
       "Firebase",
       "Mongo DB",
       "Node.js"
+    ],
+    "cms": [
+      "Wordpress"
+    ],
+    "devtools": [
+      "Git",
+      "GitHub",
+      "Gerrit",
+      "VS Code",
+      "Discord",
+      "Teams",
+      "JIRA",
+      "Confluence"
     ]
   },
   "beyond_coding": [

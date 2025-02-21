@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 import PortfolioData from '../data';
+import { Link } from 'react-router-dom';
 
 const TechStack = () => {
   const { tech_stack } = PortfolioData;
@@ -12,10 +13,10 @@ const TechStack = () => {
           <Icon icon="material-symbols:computer-outline-rounded" />
           <h2 className="text-lg font-bold">Tech Stack</h2>
         </div>
-        <a href="#" className="text-xs text-foreground/70 hover:text-foreground flex items-center gap-1 transition-colors">
+        <Link to='/techstack' className="text-xs text-foreground/70 hover:text-foreground flex items-center gap-1 transition-colors">
           View All
           <Icon className='w-3 h-3' icon="material-symbols:arrow-forward-ios"/>
-        </a>
+        </Link>
       </div>
       <div className="space-y-4">
         <div>
