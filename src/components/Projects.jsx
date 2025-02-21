@@ -1,4 +1,3 @@
-import React from 'react'
 import { Icon } from '@iconify/react';
 import ProjectData from '../data';
 
@@ -21,7 +20,7 @@ const Projects = () => {
             const { name, description, link } = project
           return (
             <div key={index} className="bento-card p-3 space-y-1">
-              <a href="#" className="block space-y-1">
+              <a target="_blank" href={link} className="block space-y-1" rel="noopener noreferrer">
                 <h3 className="text-sm font-semibold group-hover:text-accent">{name}</h3>
                 <p className="text-xs text-foreground/70">{description}</p>
                 <p className="text-xs text-foreground/50 font-mono bg-gray-100 px-2 py-1 rounded-md inline-block mt-1 break-all">{link}</p>

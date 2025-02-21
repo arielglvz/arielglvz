@@ -5,7 +5,6 @@ import Experience from '../components/Experience';
 import TechStack from '../components/TechStack';
 import BeyondCoding from '../components/BeyondCoding';
 import Projects from '../components/Projects';
-import Footer from '../components/Footer';
 import Contacts from '../components/Contacts';
 import Blogs from '../components/Blogs';
 
