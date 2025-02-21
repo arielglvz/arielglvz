@@ -491,6 +491,18 @@ body {
   animation-delay: .5s
 }
 
+.animation-delay-600 {
+  animation-delay: .6s
+}
+
+.animation-delay-700 {
+  animation-delay: .7s
+}
+
+.animation-delay-800 {
+  animation-delay: .8s
+}
+
 .page-transition {
   animation: page-transition .3s ease-out
 }

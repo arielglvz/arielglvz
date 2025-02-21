@@ -6,7 +6,7 @@ const Experience = () => {
   const { experiences } = PortfolioData
 
   return (
-    <div className="bento-card experience p-4 col-span-1 md:col-span-2 md:row-span-2 space-y-2 group animate-fade-in-up dark">
+    <div className="bento-card experience p-4 col-span-1 md:col-span-2 md:row-span-2 space-y-2 group animate-fade-in animation-delay-200">
       <div className="flex items-center gap-2">
         <Icon className="w-4 h-4" icon="mdi:briefcase-outline" />
         <h2 className='text-lg font-bold'>Experience</h2>

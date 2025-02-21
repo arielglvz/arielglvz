@@ -12,7 +12,7 @@ const TechStackPage = () => {
     <>
       <div className="page-transition max-w-4xl mx-auto px-4 py-8 flex items-center justify-center">
         <div className="bento-card p-4">
-          <div className="flex items-center gap-4 mb-8 animate-fade-in">
+          <div className="flex items-center gap-4 mb-8">
             <Link to='/' className="inline-flex items-center gap-2 text-sm text-foreground/70 hover:text-foreground transition-colors">
               <Icon className='w-4 h-4' icon="material-symbols:arrow-left-alt"/>
               Back to Home
@@ -23,7 +23,7 @@ const TechStackPage = () => {
             </div>
           </div>
           <div className="space-y-4">
-            <div>
+            <div className='animate-fade-in animation-delay-200'>
               <h3 className="text-lg font-bold mb-4">Frontend</h3>
               <div className="flex flex-wrap gap-2">
                 {frontend.map((tech, index) => (
@@ -31,7 +31,7 @@ const TechStackPage = () => {
                 ))}
               </div>
             </div>
-            <div>
+            <div className='animate-fade-in animation-delay-400'>
               <h3 className="text-lg font-bold mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {backend.map((tech, index) => (
@@ -39,7 +39,7 @@ const TechStackPage = () => {
                 ))}
               </div>
             </div>
-            <div>
+            <div className='animate-fade-in animation-delay-600'>
               <h3 className="text-lg font-bold mb-4">CMS & No-Code</h3>
               <div className="flex flex-wrap gap-2">
                 {cms.map((tech, index) => (
@@ -47,7 +47,7 @@ const TechStackPage = () => {
                 ))}
               </div>
             </div>
-            <div>
+            <div className='animate-fade-in animation-delay-400'>
               <h3 className="text-lg font-bold mb-4">Developer Tools</h3>
               <div className="flex flex-wrap gap-2">
                 {devtools.map((tech, index) => (
