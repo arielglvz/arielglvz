@@ -1,12 +1,11 @@
 
-import './App.css'
 import { RouterProvider } from 'react-router-dom';
 import { routes } from './routes';
 
 function App() {
   
   return (
-    <main className='animate-fade-in-up'>
+    <main className='h-screen animate-fade-in-up'>
       <RouterProvider router={routes} />
     </main>
   )

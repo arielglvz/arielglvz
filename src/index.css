@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root {
   --background: #fff;
@@ -13,13 +14,14 @@
   --foreground: #fff;
   --muted: #111;
   --border: #333;
-  --accent: #fff
+  --accent: #fff;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-geist-sans)
+  font-family: var(--font-geist-sans);
+  touch-action: manipulation;
 }
 
 .bento-card {
@@ -32,7 +34,6 @@ body {
 .experience {
   min-height: fit-content;
   max-height: 475px;
-  animation-delay: .10s !important;
 }
 
 .animate-fade-slide {

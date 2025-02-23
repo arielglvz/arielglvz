@@ -6,7 +6,7 @@ const Contacts = () => {
   const { contacts } = PortfolioData;
   const { email, number, social_links } = contacts;
   return (
-    <div className="bento-card p-4 col-span-1 md:col-span-2 space-y-3 group animate-fade-in animation-delay-500">
+    <div className="bento-card p-4 col-span-1 md:col-span-2 space-y-3 group animate-fade-in-up animation-delay-500">
       <div className="flex items-center gap-2">
         <Icon className='w-4 h-4' icon="tdesign:grid-add"/>
         <h2 className="text-lg font-bold">Let&#39;s Connect</h2>

@@ -1,8 +1,11 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
 import ProfileImg from '../assets/profile.jpg'
+import NightModeBtn from './ui/nightmode-btn';
+
 
 const Profile = () => {
+
   return (
     <section className='mb-8 animate-fade-in-up'>
       <div className="flex items-center gap-4 md:gap-6">
@@ -10,9 +13,7 @@ const Profile = () => {
           <div className="flex-1 min-w-0">
             <div className="flex items-center justify-between gap-2">
               <h1 className='text-lg md:text-2xl font-bold truncate'>Ariel Galvez</h1>
-              {/* <button className="inline-flex relative h-6 w-11 rounded-full bg-gray-200 transition-colors duration-300 ease-in-out dark:bg-gray-600 group" aria-label="Toggle theme">
-                Nightmode
-              </button> */}
+              <NightModeBtn />
             </div>
             <p className="text-xs  md:text-sm text-foreground/70 mt-0.5 flex items-center gap-1">
               <Icon icon="material-symbols:location-on-outline" />
