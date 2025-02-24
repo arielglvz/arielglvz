@@ -6,6 +6,10 @@ import NightModeBtn from './ui/nightmode-btn';
 
 const Profile = () => {
 
+  const openPDF = () => {
+    window.open('/public/assets/cv/galvez-ariel-resume.pdf', '_blank')
+  }
+
   return (
     <section className='mb-8 animate-fade-in-up'>
       <div className="flex items-center gap-4 md:gap-6">
@@ -21,11 +25,11 @@ const Profile = () => {
             </p>
             <p className="text-sm md:text-base mt-1.5 md:mt-2">Frontend Web Developer</p>
             <div className="flex flex-col sm:flex-row gap-2 mt-3 md:mt-4">
-              <a target="_blank" href="#" className="min-w-[8rem] inline-flex h-7 md:h-8 items-center justify-center rounded-lg bg-foreground px-2.5 md:px-4 text-[10px] md:text-xs font-medium text-background transition-all duration-200 hover:bg-foreground/90 hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap cursor-pointer">
-                <Icon className="w-4 h-4" icon="material-symbols:event-note-outline-sharp" />
-                <span className="text-left">Schedule a Call</span>
-                <Icon className="w-4 h-4" icon="material-symbols:arrow-forward" />
-              </a>
+              <span onClick={openPDF} href="#" className="min-w-[8rem] inline-flex h-7 md:h-8 items-center justify-center rounded-lg bg-foreground px-2.5 md:px-4 text-[10px] md:text-xs font-medium text-background transition-all duration-200 hover:bg-foreground/90 hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap cursor-pointer">
+                <Icon className="w-4 h-4" icon="tabler:file-cv" />
+                <span className="text-left">My CV</span>
+                <Icon className="w-4 h-4" icon="material-symbols:arrow-downward-alt" />
+              </span>
               <a target="_blank" href="mailto:arielglvz@gmail.com" className="min-w-[8rem] inline-flex h-7 md:h-8 items-center justify-center rounded-lg border border-border bg-background px-2.5 md:px-4 text-[10px] md:text-xs font-medium transition-all duration-200 hover:bg-muted hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap cursor-pointer">
                 <Icon className="w-4 h-4" icon="material-symbols:mail-outline" />
                 <span className="text-left">Send Email</span>

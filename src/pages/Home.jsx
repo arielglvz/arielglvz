@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Profile />
-      <section className="grid grid-cols-1 md:grid-cols-6 gap-2">
+      <section className="grid grid-cols-1 md:grid-cols-6 gap-4">
         <About />
         <Experience />
         <TechStack />
