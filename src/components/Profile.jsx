@@ -7,7 +7,7 @@ import NightModeBtn from './ui/nightmode-btn';
 const Profile = () => {
 
   const openPDF = () => {
-    window.open('/public/assets/cv/galvez-ariel-resume.pdf', '_blank')
+    window.open('/assets/cv/galvez-ariel-resume.pdf', '_blank');
   }
 
   return (
