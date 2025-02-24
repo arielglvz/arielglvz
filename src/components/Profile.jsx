@@ -11,7 +11,7 @@ const Profile = () => {
   }
 
   return (
-    <section className='mb-8 animate-fade-in-up'>
+    <section className='mb-4 animate-fade-in-up'>
       <div className="flex items-center gap-4 md:gap-6">
         <img src={ProfileImg} alt="Ariel Galvez" className='rounded-lg w-32 h-32 md:w-40 md:h-40 object-cover flex-shrink-0'/>
           <div className="flex-1 min-w-0">

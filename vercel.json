@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/public/assets/cv/galvez-ariel-resume.pdf", "destination": "/public/assets/cv/galvez-ariel-resume.pdf" }
+  ]
+}
