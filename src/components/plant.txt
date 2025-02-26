@@ -1,0 +1,39 @@
+Simple Flowchart for Portfolio Website with Dashboard
+
+1. User Flow (Portfolio Website)
+
+- User visits the website.
+
+- Views Hero Section (Profile, Introduction)
+
+- Views About Section (Bio, Skills)
+
+- Views Projects Section (Fetched from Firebase)
+
+- Views Contact Section (Form submission stored in Firebase)
+
+2. Admin Flow (Dashboard)
+
+Admin logs in via Firebase Authentication.
+
+- Admin accesses Dashboard:
+
+- Manage Projects (Add/Edit/Delete)
+
+- Update Profile Information (Bio, Skills, Profile Image)
+
+- View Contact Messages
+
+- Changes are saved in Firestore and updated on the portfolio site.
+
+3. System Flow (Deployment & Hosting)
+
+- Frontend (React.js) deployed on Vercel.
+
+- Backend (Firebase) handles:
+
+- Firestore for data storage
+
+- Auth for login security
+
+- Automatic deployment through GitHub + Vercel.

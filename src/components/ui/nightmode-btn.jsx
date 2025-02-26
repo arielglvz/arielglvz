@@ -2,8 +2,7 @@ import React, { useState }  from 'react'
 import useTheme from '../../hooks/useTheme';
 
 const NightModeBtn = () => {
-  const nightMode = localStorage.getItem("theme")
-  const [isChecked, setIsChecked] = useState(nightMode);
+  const [isChecked, setIsChecked] = useState('checked');
   const { setTheme } = useTheme();
 
   const handleToggle = () => {
